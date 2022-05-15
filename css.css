@@ -1,3 +1,19 @@
-.ingredient{
-    display: none;
+.card{
+    background-color: #4C504B ;
+    width: 150px;
+}
+
+.card-img-top{
+    width: 150px;
+}
+
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title{
+    height: 50px;
+    color: white;
 }

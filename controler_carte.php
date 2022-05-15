@@ -21,7 +21,7 @@ $produits = showAllproduit($bdd);
 
 foreach($produits as $value){
     // var_dump($value);
-    $card = '<div class=\'card m-5\' style=\'width: 18rem;\'><div id=\'click-card'.$value->id_prod.'\'><img src=\''.$value->img_prod.'\' class=\'card-img-top\' alt=\'...\'></div><div id=\'card-body'.$value->id_prod.'\'><h5 class=\'card-title\'>'.$value->nom_prod.'</h5></div></div>';
+    $card = '<div class=\'card m-5\'><div id=\'click-card'.$value->id_prod.'\'><img src=\''.$value->img_prod.'\' class=\'card-img-top\' alt=\'...\'></div><div id=\'card-body'.$value->id_prod.'\'><h5 class=\'card-title\'>'.$value->nom_prod.'</h5></div></div>';
 
     $versoCardHaut = '<img src=\''.$value->img_prod.'\' class=\'card-img-top\' alt=\'...\'>';
     $versoCardBas = '<h5 class=\'card-title\'>'.$value->nom_prod.'</h5>';
